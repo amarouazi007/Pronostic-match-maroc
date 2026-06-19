@@ -1,0 +1,6 @@
+{
+  "name": "Pronostics Maroc Écosse",
+  "description": "Application interactive de pronostics en temps réel pour le match Maroc vs Écosse de la Coupe du Monde 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
