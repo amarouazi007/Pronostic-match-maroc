@@ -32,8 +32,10 @@ import {
 import { Prediction, MatchStats, MOROCCO_PLAYERS, SCOTLAND_PLAYERS } from "./types";
 import Mag5starsLogo from "./components/Mag5starsLogo";
 import { MoroccoFlag, ScotlandFlag } from "./components/Flags";
+import lionImage from "./assets/images/atlas_lion_victory_1781898346077.jpg";
+import watermarkImage from "./assets/images/brahim_hakimi_watermark_1781900711085.jpg";
 
-const LION_IMAGE_URL = "/src/assets/images/atlas_lion_victory_1781898346077.jpg";
+const LION_IMAGE_URL = lionImage;
 
 const TRANSLATIONS = {
   fr: {
@@ -592,7 +594,7 @@ export default function App() {
         {/* Beautiful Watermark image of Brahim Díaz and Hakimi (filigrane) in action */}
         <div className="absolute inset-0 z-5 opacity-[0.14] mix-blend-screen">
           <img 
-            src="/src/assets/images/brahim_hakimi_watermark_1781900711085.jpg" 
+            src={watermarkImage} 
             alt="Brahim Díaz & Achraf Hakimi Watermark" 
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"

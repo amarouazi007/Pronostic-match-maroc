@@ -1,4 +1,5 @@
 import React from "react";
+import lionImage from "../assets/images/atlas_lion_victory_1781898346077.jpg";
 
 interface LogoProps {
   className?: string;
@@ -6,7 +7,7 @@ interface LogoProps {
 }
 
 export default function Mag5starsLogo({ className = "", size = 120 }: LogoProps) {
-  const LION_IMAGE_URL = "/src/assets/images/atlas_lion_victory_1781898346077.jpg";
+  const LION_IMAGE_URL = lionImage;
 
   return (
     <div 
